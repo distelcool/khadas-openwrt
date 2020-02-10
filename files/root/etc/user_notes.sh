@@ -5,7 +5,7 @@
 #= user_notes
 
 LAN_IP="$(uci get network.lan.ipaddr)"
-WAN_IP="$(ipaddr eth0)"
+WAN_IP="$(uci get network.wwan.ipaddr)"
 
 APID=$(pgrep avahi)
 [ "$APID" ] && {
