@@ -44,19 +44,14 @@ $opkg install rsync bwm-ng curl procps-ng-pkill tcpdump nano mc \
     coreutils-stty \
     avahi-dbus-daemon avahi-utils \
     mount-utils dosfstools e2fsprogs resize2fs blkid losetup dtc uboot-envtools \
-    comgt luci-proto-3g usb-modeswitch usbreset \
     triggerhappy kmod-hid \
     iw wpad-wolfssl wpa-cli \
     wireless-tools iwinfo \
     iperf pv \
     ttyd \
-    samba36-client \
     nfs-utils \
-    ppp-mod-pptp \
-    openvpn-mbedtls luci-app-openvpn \
     iptables-mod-tproxy \
     iptables-mod-trace \
-    shadowsocks-libev-ss-redir shadowsocks-libev-ss-local shadowsocks-libev-ss-rules shadowsocks-libev-config luci-app-shadowsocks-libev \
     wpan-tools
 
 case $REL in
