@@ -44,6 +44,7 @@ $opkg install rsync bwm-ng curl procps-ng-pkill tcpdump nano mc \
     coreutils-stty \
     avahi-dbus-daemon avahi-utils \
     mount-utils dosfstools e2fsprogs resize2fs blkid losetup dtc uboot-envtools \
+    comgt luci-proto-3g usb-modeswitch usbreset \
     triggerhappy kmod-hid \
     iw wpad-wolfssl wpa-cli \
     wireless-tools iwinfo \
